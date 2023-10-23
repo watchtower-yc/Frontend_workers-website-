@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300
+    ;400;600;700&display=swap"rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+         <nav>
+            <a href="/index.html"><img src="/img/logo.png" alt="#"></a>
+             <div class="nav-links" id="navlinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                </ul>
+             </div>
+             <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+         </nav>
+         <h1>Contact Us</h1>
+
+    </section>
+    <!----------contact us---------->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.4799845613826!2d4.267193490687331!3d8.157610536029635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10370da90b366c79%3A0x47d00c62ef979b2a!2s5759%2B74G%2C%20Under%20G%20Rd%2C%20adjacent%20Daniella%20Hostel%2C%20212102%2C%20Ogbomosho%2C%20Oyo!5e1!3m2!1sen!2sng!4v1697718575063!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </section>
+    <section class="contact-us"></section>
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house-user"></i>
+               <span>
+                <h5>address</h5>
+                <p>Nigeria</p>
+            </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+               <span>
+                <h5>+234 </h5>
+                <p>Monday to Saturday, 10Am to 6PM</p>
+            </span>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope-open"></i>
+               <span>
+                <h5>info@.com</h5>
+                <p>Email us your prayer points and shedule your meetings</p>
+            </span>
+            </div>
+        </div>
+       
+        
+    </div>
+
+
+
+
+
+
+    <!------Footer------->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur laboriosam, excepturi <br>molestiae earum non illo beatae ea eius vel nostrum minus sed debitis dolore
+         aliquid et minima eligendi cupiditate ex.
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-telegram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-snapchat"></i>
+         
+         
+    </div>
+   
+</section>
+
+
+
+
+
+
+
+   <!---------Javascript for Toggle Menu ------------>
+    <script>
+        var navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+         function hideMenu(){
+            navLinks.style.right = "-270px";
+        }
+    </script>
+</body>
+</html>
